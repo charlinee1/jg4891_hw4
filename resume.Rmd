@@ -1,0 +1,28 @@
+---
+title: "My Professional and academic experiences"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Resume
+### Teaching Assistant 2025 Fall
+At Columbia University Mailman School of Public Health, I'm a TA for Qualitative 
+study. My responsibilities are assisting teachers with classroom management and guided class activities for students, and answering students’ questions about qualitative research through daily emails and weekly office-hours.
+
+### Intern 2025 Summer
+At Alliance for Positive Change, Manhattan, I'm a program evaluation Intern for three months.
+I conducted intake assessment for new clients and documented their demographic, education, housing information, and so on in Salesforce to match them with available job opportunities.
+I drafted a new evaluation report for Path to Jobs from 2023 to 2025, interpreted measures such as job placements, retention outcomes, resume writings, and so on, to receive continued funding from funders.
+I conducted data analysis using STATA to do a two-sample t test to compare resilience scale scores among employed clients with unemployed clients
+
+### Research Assistant 2024-2025
+At Columbia University Mailman School of Public Health, Manhattan, I worked as a research assistant
+for one year.
+I created a database of leaf blower regulations in 50 states and examined policy impacts on air quality outcomes
+I analyzed two versions of leaf blower policies in New York state respectively and categorized 46 policies by location, effective date, latitude, longitude, effective dates, exemption type, exemption dates, ban type, and penalty.
+
+
+Go back to the [main page](index.html).
+

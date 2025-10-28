@@ -1,0 +1,14 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Linkedin"
+      href: https://www.linkedin.com/in/jinghg/
+    - icon: fa-envelope fa-lg
+      href: mailto:<jg4891@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: https://github.com/charlinee1/jg4891_hw4.git
+output:
+  html_document:
+    theme: cerulean

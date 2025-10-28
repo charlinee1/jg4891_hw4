@@ -1,0 +1,31 @@
+---
+title: "Charline Gu's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+
+---
+
+# Introduction
+My name is Charline Gu. I'm a second year MPH student in HPM department at Columbia
+University. I'm interested in health policy.
+
+## Quantitative Skills
+I have a lot of experiences with R, Stata, and SAS. I'm also a research assistant 
+working on different projects for five years. You can check my experiences [here](resume.html).
+
+## Interests
+A little bit more about me... I have 8 animals at home, but my favoite one is my dog.
+I like horror movies and horror games. My favorite ones 
+are *[Insidious](https://tv.apple.com/us/movie/insidious/umc.cmc.3baqa4v7kn2pg6ttw7hkxkpx) 
+and *[Silent Hill](https://www.imdb.com/title/tt0384537/).
+
+![](images/me.jpg)
+
+## My pets
+![](images/dog.jpg)
+![](images/cat.jpg)
+
+
+
