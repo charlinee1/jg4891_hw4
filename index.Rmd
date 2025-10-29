@@ -4,7 +4,6 @@ output:
   html_document:
     toc: true
     toc_float: true
-
 ---
 
 # Introduction
@@ -21,11 +20,6 @@ I like horror movies and horror games. My favorite ones
 are *[Insidious](https://tv.apple.com/us/movie/insidious/umc.cmc.3baqa4v7kn2pg6ttw7hkxkpx) 
 and *[Silent Hill](https://www.imdb.com/title/tt0384537/).
 
-![](images/me.jpg)
-
-## My pets
-![](images/dog.jpg)
-![](images/cat.jpg)
-
-
+## My flex dashboard
+This is a flex [dashboard](dashboard.html) I made in my data science class.
 
