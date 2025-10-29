@@ -1,0 +1,57 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+data("instacart")
+
+ins=instacart |> 
+  filter(department=="dairy eggs", order_number>50) |> 
+    plot_ly(
+    x=~aisle,y=~order_hour_of_day,
+    type = "scatter", mode="markers",color=~order_number,
+    text=~product_name
+  )
+ins
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+ins2 = instacart |> 
+  mutate(aisle = fct_reorder(aisle, order_number )) |> 
+  filter(department=="produce") |> 
+  plot_ly(y = ~order_number, color = ~aisle, type = "box", colors = "viridis")
+ins2
+```
+
+### Chart C
+
+```{r}
+ins3 =instacart |> 
+  count(department) |> 
+  mutate(department = fct_reorder(department, n)) |> 
+  plot_ly(x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis")
+ins3
+```
